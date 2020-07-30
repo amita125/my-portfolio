@@ -1,0 +1,246 @@
+*{
+  font-family: 'Crimson Pro', serif;
+
+
+
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+section{
+  /* height: 100vh; */
+  width: 100%;
+  display: inline-block;
+ 
+}
+div {
+  display: block;
+}
+
+img{
+  height: 100vh;
+  width: 100%;
+}
+
+.projects{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  color: #e31b6d;
+}
+#gallery .projects {
+  position: relative;
+  margin:0px;
+       padding: 10px;
+}
+.projects:hover .card {
+   opacity: 0; 
+}
+.projects:nth-child(1) .card {
+   background: url(./images/trippy/loginpg.PNG) center center/cover;
+   background-image: url(./images/trippy/loginpg.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+
+ #gallery .projects:nth-child(2) .card {
+   background: url(./images/habit/dashboard.PNG) center center/cover;
+   background-image: url(./images/habit/dashboard.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+#gallery .projects:nth-child(3) .card {
+   background: url(./images/quiz/mainPG.PNG) center center/cover;
+   background-image: url(./images/quiz/mainPG.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+#gallery .projects:nth-child(4) .card {
+   background: url(./images/blog/chirp.PNG) center center/cover;
+   background-image: url(./images/blog/chirp.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+#gallery .projects:nth-child(5) .card {
+  background: url(./images/tokyo.PNG) center center/cover;
+   background-image: url(./images/tokyo.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+#gallery .projects:nth-child(6) .card {
+   background: url(./images/tokyo.PNG) center center/cover;
+   background-image: url(./images/tokyo.PNG);
+   background-position-x: center;
+   background-position-y: center;
+   background-size: cover;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+  
+}
+.projects > .card {
+    margin:0px;
+}
+#gallery .projects .card {
+  height: 240px;
+  max-width: 100%;
+  transition: opacity 0.5s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  width: calc(50vw - 8px);
+  
+}
+
+#gallery .project-details,
+#gallery .project-button {
+  color: #1b242f;
+  opacity: 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  z-index: 2;
+}
+
+.project-details {
+  left: 0;
+   position: absolute;
+  top: 0;
+  width: 100%;
+}
+#gallery .project-details .project-name,
+#gallery .project-button .project-name {
+  font-size: 16pt;
+}
+.project-name {
+  font-family: "Raleway-bold";
+}
+
+#gallery .project-button {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  border: 2px solid #e31b6d;
+  font-size: 13pt;
+  margin: 0 auto;
+  padding: 7px 0;
+  width: 170px;
+}
+.project-button {
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13pt;
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+#gallery .projects:hover .project-details {
+  cursor: default;
+  opacity: 1;
+  top:24%;
+}
+ #gallery .projects:hover .project-button {
+   bottom: 24%;
+   opacity: 1;
+ }
+
+ @media screen and (min-width: 320px){
+  #gallery .projects .card {
+    width: 250px;
+  }
+  section#projects {
+    padding: 0px 22px;
+}
+ }
+@media screen and (min-width: 375px){
+  #gallery .projects .card {
+    width: 300px;
+  }
+  section#projects {
+    padding: 0px 32px;
+}
+ }
+ @media screen and (min-width: 425px){
+ 
+  section#projects {
+    padding: 0px 50px;
+}
+ }
+ @media screen and (min-width: 768px){
+  #gallery .projects .card {
+    height: 250px;
+    width: 300px;
+}
+ section#projects {
+    padding: 0px 50px;
+}
+ }
+ @media screen and (min-width: 1024px){
+  #gallery .projects .card {
+    width: 400px;
+    height: 300px;
+}
+section#projects {
+    padding: 0px 90px;
+}
+ }
+ 
+
+
+img.d-block.w-100 {
+    height: 400px;
+}
+
+h1 {
+    color: unset;
+}

@@ -1,0 +1,38 @@
+#navigation {
+    background-color: #37c185;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 0px 25px;
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(42 102 35);
+    font-size: 20px;
+}
+.navbar-light .navbar-brand {
+    color: rgb(42 102 35);
+}
+img#navi-img-linkedin {
+    height: 30px;
+    width: 100px;
+}
+img#navi-img-port {
+    height: 35px;
+    width: 100px;
+}
+img#navi-img-git {
+    height: 30px;
+    width: 100px;
+}
+img#navi-img-mail {
+    height: 35px;
+    width: 100px;
+}
+img#logo-img {
+    width: 80px;
+    height: 40px;
+}

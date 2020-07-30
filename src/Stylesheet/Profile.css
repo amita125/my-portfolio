@@ -1,0 +1,276 @@
+#introduction {
+    background: linear-gradient(270deg, #388c76, #5ba94c, #86b14f, #a6b34e, #b18b38, #9449ad, #b34a9b, #c8618c);
+      /* background: linear-gradient(270deg, #033225, #4c0538, #4e052a, #4e0516, #35054e, #0b054e, #05364e, #054e3d); */
+    background-size: 1600% 1600%;
+    -webkit-animation: MainBackground 30s ease infinite;
+    -moz-animation: MainBackground 30s ease infinite;
+    animation: MainBackground 30s ease infinite;
+    position: relative;
+    z-index: 1030;
+   
+}
+
+@-webkit-keyframes MainBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes MainBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes MainBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+p{
+    color: white;
+}
+span#highlight {
+    color:#37FB68;
+}
+div#intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+     
+}
+div#intro-button {
+    margin-bottom: 53px;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    top: 35%;
+   border: 10px solid;
+   border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+   border-image-slice: 1;
+ border-radius: 10px;
+   
+}
+
+
+button#view-button {
+    background: none;
+    border: 3px solid;
+  border-image: radial-gradient(rgb(0,143,104), rgb(250,224,66)) 1;
+border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 25px;
+    color:linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+}
+
+button#view-button:hover {
+background-color: #28a745;
+
+}
+ 
+  @media screen and (min-width: 401px) {
+      
+      
+      div#intro-button {
+          margin-bottom: 53px;
+          padding: 12px 40px 12px 15px;
+          position: absolute;
+          
+      }
+  }
+ 
+
+
+ @media screen and (max-height: 300px) {
+
+    
+    #intro-info{
+       visibility: visible;
+    top: 0;
+    display: flex;
+    left: 15%;
+    transform: translate(-1%, -50%);
+    }
+    div#intro-button {
+    position: absolute;
+    display: flex;
+    transform: translate(10%,-5%);
+      }
+     
+ }
+
+.spacer
+{
+    width: 100%;
+    height: 95px;
+}
+
+
+.css-typing p {
+    border-right: .15em solid #02bf4d;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 11.5em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+   width: 15em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid#02bf4d;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #02bf4d;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #02bf4d;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #02bf4d;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+.mainInfo {
+    padding-top: 50px;
+   
+background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    color: #28a745;
+
+}
+
+footer#contact {
+    padding: 15px;
+    text-align: center;
+}
+
+.view-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 320px){
+div#intro-button {
+    width: 300px;
+    height: 250px;
+    padding: 0px;
+}
+p.hello {
+    font-size: 20px;
+    padding: 15px 10px 5px;
+    /* margin: 10px; */
+}
+.css-typing p:nth-child(1) {
+   
+    animation: type 2s steps(7, end);
+    animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(2) {
+    
+    animation: type2 2s steps(8, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.view-project {
+ 
+    margin-top: 25px;
+}
+ }
+ @media screen and (min-width: 768px){
+div#intro-button {
+    width: 450px;
+}
+p.hello {
+    font-size: 26px;
+  
+}
+
+.view-project {
+ 
+    margin-top: 25px;
+}
+ }
