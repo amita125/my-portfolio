@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1b4c2c74a2dbb99101eba9eea4a7571",
+    "revision": "4c63bc17430f4fea63f02f638586c0a4",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "21f061ea6fbeea929706",
-    "url": "/my-portfolio/static/css/main.efb49958.chunk.css"
+    "revision": "82f55a61c2364e582dc4",
+    "url": "/my-portfolio/static/css/main.af16b668.chunk.css"
   },
   {
-    "revision": "9fc65981e3beb7601caa",
-    "url": "/my-portfolio/static/js/2.88df7e2d.chunk.js"
+    "revision": "bf63c3cb6c0940241b29",
+    "url": "/my-portfolio/static/js/2.b478d138.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/my-portfolio/static/js/2.88df7e2d.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.b478d138.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21f061ea6fbeea929706",
-    "url": "/my-portfolio/static/js/main.6ad2cb7f.chunk.js"
+    "revision": "82f55a61c2364e582dc4",
+    "url": "/my-portfolio/static/js/main.7639d54b.chunk.js"
   },
   {
     "revision": "f241adf7bba56ceeeb82",
@@ -60,16 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/gif.dd8cb29e.PNG"
   },
   {
-    "revision": "a112a001d5170d13d5f46d9387e526a4",
-    "url": "/my-portfolio/static/media/github.a112a001.svg"
+    "revision": "7ea6f3d2421c9ce692beb77e444734e6",
+    "url": "/my-portfolio/static/media/github.7ea6f3d2.svg"
   },
   {
     "revision": "a37929fbaf1791c679e691b731ee5b22",
     "url": "/my-portfolio/static/media/kathmandu.a37929fb.PNG"
   },
   {
-    "revision": "3c8afea5ee97ad99924808a2ab5fec10",
-    "url": "/my-portfolio/static/media/linkedin.3c8afea5.svg"
+    "revision": "5f8cd186abe0b66381fe10cc9c297be1",
+    "url": "/my-portfolio/static/media/linkedin.5f8cd186.svg"
   },
   {
     "revision": "a4b5e421a38886b484e4e834b6d0e188",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/loginpg.5cdf96ad.PNG"
   },
   {
-    "revision": "75d37c94a9df866ea1da28dcf94075f5",
-    "url": "/my-portfolio/static/media/mail.75d37c94.svg"
+    "revision": "735030828e157b9b56eee1c71992eaa3",
+    "url": "/my-portfolio/static/media/mail1.73503082.svg"
   },
   {
     "revision": "45a4d5b1e4bcfdc2b929240d3d58eb4a",
