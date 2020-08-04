@@ -94,25 +94,26 @@ button#view-button:hover {
 background-color: #28a745;
 
 }
- 
-  @media screen and (min-width: 401px) {
-      
-      
-      div#intro-button {
-          margin-bottom: 53px;
-          padding: 12px 40px 12px 15px;
-          position: absolute;
-          
-      }
+
+@media screen and (max-width: 300px) {
+    div#intro-button {
+      margin-bottom: 53px;
+      padding: 12px 40px 12px 15px;
+      position: absolute;   
+    }
   }
  
-
-
+  @media screen and (min-width: 401px) {
+    div#intro-button {
+      margin-bottom: 53px;
+      padding: 12px 40px 12px 15px;
+      position: absolute;   
+    }
+  }
+ 
  @media screen and (max-height: 300px) {
-
-    
     #intro-info{
-       visibility: visible;
+    visibility: visible;
     top: 0;
     display: flex;
     left: 15%;

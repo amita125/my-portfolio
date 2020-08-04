@@ -1,24 +1,63 @@
 import React from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { HashLink as Link } from "react-router-hash-link";
 import "../Stylesheet/Navigation.css";
 function Navigation() {
   return (
-    <Navbar id="navigation" collapseOnSelect expand="lg"  >
-      <Navbar.Brand href="/" >
-        <img id="logo-img" src={require('../images/formal.svg')} 
-          alt="React Bootstrap logo"
-        />
+    <Navbar id="navigation" collapseOnSelect expand="lg">
+      <Navbar.Brand>
+        <Link smooth to="/#introduction">
+          <img
+            id="logo-img"
+            src={require("../images/naviIcon/formal.svg")}
+            alt="React Bootstrap logo"
+          />
+        </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse className="justify-content-end" >
+      <Navbar.Collapse className="justify-content-end">
         <Nav>
-          <Nav.Link href="#projects" ><img id="navi-img-port" src={require('../images/monitor.svg')} alt="project" /></Nav.Link>
-          <Nav.Link href=" mailto: amitaghale@gmail.com "> <img id="navi-img-mail" src={require('../images/mail.svg')} alt="contact" /></Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/amita-ghale-15ab36189/"> <img id="navi-img-linkedin" src={require('../images/linkedin.svg')} alt="linkedin" /></Nav.Link> 
-          <Nav.Link href="https://github.com/amita125"> <img id="navi-img-git" src={require('../images/github.svg')} alt="github" /></Nav.Link>
+          <Nav.Item>
+            <Link smooth to="/#info">
+              About ME
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link smooth to="/#projects">
+              Projects
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <a href=" mailto: amitaghale@gmail.com ">
+              <img
+                className="navi-img"
+                id="navi-img-mail"
+                src={require("../images/naviIcon/mail1.svg")}
+                alt="contact"
+              />
+            </a>
+          </Nav.Item>
+          <Nav.Item>
+            <a href="https://www.linkedin.com/in/amita-ghale-15ab36189/">
+              <img
+                className="navi-img"
+                src={require("../images/naviIcon/linkedin.svg")}
+                alt="linkedin"
+              />
+            </a>
+          </Nav.Item>
+          <Nav.Item>
+            <a href="https://github.com/amita125">
+              <img
+                className="navi-img"
+                src={require("../images/naviIcon/github.svg")}
+                alt="github"
+              />
+            </a>
+          </Nav.Item>
         </Nav>
-      </Navbar.Collapse> 
+      </Navbar.Collapse>
     </Navbar>
   ); 
 }

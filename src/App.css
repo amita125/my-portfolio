@@ -1,10 +1,6 @@
 *{
   font-family: 'Crimson Pro', serif;
-
-
-
 }
-
 .container-fluid,
 .container-lg,
 .container-md,
@@ -19,7 +15,6 @@
 }
 
 section{
-  /* height: 100vh; */
   width: 100%;
   display: inline-block;
  
@@ -27,7 +22,6 @@ section{
 div {
   display: block;
 }
-
 img{
   height: 100vh;
   width: 100%;
@@ -44,7 +38,7 @@ img{
 #gallery .projects {
   position: relative;
   margin:0px;
-       padding: 10px;
+  padding: 10px;
 }
 .projects:hover .card {
    opacity: 0; 
@@ -59,9 +53,7 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
-
  #gallery .projects:nth-child(2) .card {
    background: url(./images/habit/dashboard.PNG) center center/cover;
    background-image: url(./images/habit/dashboard.PNG);
@@ -72,7 +64,6 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
 #gallery .projects:nth-child(3) .card {
    background: url(./images/quiz/mainPG.PNG) center center/cover;
@@ -84,7 +75,6 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
 #gallery .projects:nth-child(4) .card {
    background: url(./images/blog/chirp.PNG) center center/cover;
@@ -96,11 +86,10 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
 #gallery .projects:nth-child(5) .card {
-  background: url(./images/tokyo.PNG) center center/cover;
-   background-image: url(./images/tokyo.PNG);
+  background: url(./images/weather/tokyo.PNG) center center/cover;
+   background-image: url(./images/weather/tokyo.PNG);
    background-position-x: center;
    background-position-y: center;
    background-size: cover;
@@ -108,11 +97,10 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
 #gallery .projects:nth-child(6) .card {
-   background: url(./images/tokyo.PNG) center center/cover;
-   background-image: url(./images/tokyo.PNG);
+   background: url(./images/weather/tokyo.PNG) center center/cover;
+   background-image: url(./images/weather/tokyo.PNG);
    background-position-x: center;
    background-position-y: center;
    background-size: cover;
@@ -120,7 +108,6 @@ img{
    background-origin: initial;
    background-clip: initial;
    background-color: initial;
-  
 }
 .projects > .card {
     margin:0px;
@@ -134,7 +121,6 @@ img{
   transition-timing-function: ease;
   transition-delay: 0s;
   width: calc(50vw - 8px);
-  
 }
 
 #gallery .project-details,
@@ -193,6 +179,15 @@ img{
    bottom: 24%;
    opacity: 1;
  }
+  @media screen and (max-width: 300px){
+  #gallery .projects .card {
+    height: 200px;
+    width: 200px;
+}
+ section#projects {
+    padding: 0px 40px;
+}
+ }
 
  @media screen and (min-width: 320px){
   #gallery .projects .card {
@@ -235,12 +230,9 @@ section#projects {
 }
  }
  
-
-
 img.d-block.w-100 {
     height: 400px;
 }
-
 h1 {
     color: unset;
 }

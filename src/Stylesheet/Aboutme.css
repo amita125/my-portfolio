@@ -62,7 +62,24 @@ p.info_aboutme {
     padding: 15px 10px 5px;
     margin: 10px;
 }
-
+ @media screen and (max-width: 300px){
+  
+ section#info {
+    padding: 0px 22px;
+}
+span.rate {
+    font-size: 11px;
+}
+.aboutme {
+    margin: 2px;
+}
+p.info_aboutme {
+  
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+}
+ }
 
  @media screen and (min-width: 320px){
   
